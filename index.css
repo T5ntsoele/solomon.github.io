@@ -1,0 +1,63 @@
+body {
+  background-color: antiquewhite;
+  
+}
+
+
+/*Navlinks*/
+.navbar {
+  background-color: #333;
+  margin: auto;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.navlinks {
+  display: flex;
+  gap: 50px;
+}
+
+.navlinks a {
+  color: antiquewhite;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+.navlinks a:hover {
+  color: aqua;
+}
+
+/*Contact*/
+form {
+  background-color: #fff;
+  padding: 20px;
+  margin: 30px auto;
+  max-width: 420px;
+  border-radius: 10px;
+}
+
+form input, form textarea {
+  padding: 10px;
+  width: 95%;
+  margin: 8px;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+form button {
+  background-color: antiquewhite;
+  color: #333;
+  padding: 10px;
+  width: 100%;
+  border-radius: 6px;
+}
+
+form button:hover {
+  background-color: aqua;
+}
+
+.error { 
+  color: #d32f2f;
+  margin-top: 6px;
+ }
